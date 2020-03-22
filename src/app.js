@@ -29,7 +29,7 @@ app.get('/about', (req, res) => {
 
 app.get('/help', (req, res) => {
     res.render('help',{
-        message: 'For Your Help',
+        message: 'For Any Queries View About',
         title: 'Help',
         name: 'DJ'
     })
